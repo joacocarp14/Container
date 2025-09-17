@@ -1,0 +1,33 @@
+.w-70 {
+    width: 70%;
+  }
+  body {
+    font-family: 'Merriweather', serif;
+  }
+  
+  .carousel-inner .carousel-item img {
+    object-fit: cover; 
+    width: 500%; 
+    height: 600px; 
+  }
+body{
+  background-image: url('IMAGENES/river.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: moveBackground 30s infinite linear;
+}
+
+@keyframes moveBackground {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 100% 100%;
+  }
+}
+div{
+  color: bisque;
+}
+h1{
+  color: red;
+}
